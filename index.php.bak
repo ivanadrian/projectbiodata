@@ -1,0 +1,16 @@
+<?php
+session_start();
+if(!isset($_SESSION['user']))
+{
+	?><script type="text/javascript">
+document.location="include/home.php";
+</script><?php
+}else{
+	if($_SESSION['status']=="Pengguna"){
+	?><script type="text/javascript">
+document.location="include/page_user.php";
+</script><?php }else{
+		
+	}
+}
+?>

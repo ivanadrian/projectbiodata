@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+
+
+#page { width: 585px; margin: 30px auto; }
+
+#thumbs { padding-top: 10px; overflow: hidden; margin-top:-20px;}
+#thumbs img, #largeImage { border: 1px solid gray; padding: 4px; background-color: white; cursor: pointer; }
+#thumbs img { float: left; margin-right: 6px; }
+#description { background: black; color: white; position: absolute; bottom: 0; padding: 10px 20px; width: 565px; margin: 5px; }
+#panel { position: relative; float:left;}
+
+h1, h2 { font-size: 30px; color: #333; text-shadow: 0px 2px 3px #c5c5c5; text-align: center;  }
+h2 { font-size: 20px; line-height: 30px; }
+h2 a { background-color: #F5FF4C; color: #333; text-decoration: none; padding: 5px;}
+h2 a:hover { background-color: #d5dd42; }
+
+a{
+		color:#000;
+		font-weight:bold;
+}
+a:hover{
+		text-decoration:none;
+}
+#menu{
+		border-left:1px solid #999;border-right:1px solid #999;padding:5px;float:right;
+}
+#menu-lanjut{
+		border-left:1px solid #999;padding:5px;float:right;
+}
+#menu:hover{background-color:#000;color:#FFF;}
+#menu-lanjut:hover{background-color:#000;color:#FFF;}
+div.kategori{padding:5px;float:left;width:150px;}
+.list-product{border:0px solid gray;border-radius:5px;}
+.list-product:hover{background-color:#fff;border-radius:5px;}
+
+#header{
+	border-left:0px;
+	border-right:0px;
+	border-bottom:1px solid #999;
+	background:url(../img/header.jpg);
+}
+#header-judul{
+	border:1px solid #999;
+	border-top:0px;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+	padding:15px; 
+	background:url(../img/header.jpg);
+}
+#content{ 
+	border:1px solid #999;
+	border-top:0px;
+	padding:15px;
+	background:url(../img/bg-sidebar.jpg);
+}
+#pencarian{ 
+	border:1px solid #999;
+	border-top:0px;
+	padding:10px;
+	background:url(../img/bg-sidebar.jpg);
+}
+#galeri{ 
+	border:1px solid #999;
+	border-top:0px;
+	border-bottom:0px;
+	padding:15px;
+	background:url(../img/bg-sidebar.jpg);
+}
+#product-border{
+	border:1px solid #999;
+	border-top:0px;
+	border-bottom:0px;
+	padding:15px;
+	background:url(../img/bg-sidebar.jpg);
+}
+#footer{
+	border:1px solid #999;
+	border-left:0px;
+	border-right:0px;
+	padding:15px;
+	background:url(../img/footer.jpg);
+	color:#fff;
+}
